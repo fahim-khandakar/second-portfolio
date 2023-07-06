@@ -124,3 +124,87 @@ hr{
     height: 250px;
 }
 
+
+/* contact area started here  */
+.contact_area{
+    background-color: rgb(194, 152, 152);
+    height: 100vh;
+}
+
+.contact{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.address{
+
+}
+
+.location_pic{
+    width: 50px;
+}
+
+.location {
+    
+}
+
+.phone_pic{
+    width: 50px; 
+}
+
+.phone{
+}
+
+.email_pic{
+    width: 50px;
+}
+
+.email{
+
+}
+
+.contact_form{
+    background-color: rgb(202, 161, 161);
+    height: 50vh;
+    width: 45vh;
+    
+}
+
+.form_area{
+    display: flex;
+    flex-direction: column;
+    padding: 20px 10px 0px 10px;
+}
+
+input{
+    margin: 15px;
+    border: none;
+    outline: none;
+    background-color: rgb(202, 161, 161);
+    border-bottom: 1px solid black;
+}
+
+
+/* footer area started here  */
+.footer_area{
+    background-color: rgb(139 139 139);
+}
+
+.footer{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    padding: 25px;
+
+}
+
+.copy_right{
+
+}
+
+.links a img{
+    width: 3em;
+    height: 3em;
+    padding-right: 20px;
+}
