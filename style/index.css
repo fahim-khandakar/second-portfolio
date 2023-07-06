@@ -1,0 +1,126 @@
+*{
+    margin: 0px;
+    padding: 0px;
+}
+
+
+
+.navbar{
+    display: flex;
+    justify-content: space-between;
+    background-color: #303030b3;
+    align-items: center;
+    padding: 10px;
+}
+
+.logo{
+    color:chocolate;
+    margin-left: 70px;
+    font-size: 25px;
+}
+
+.logo span{
+    color: aqua;
+}
+
+.nav_list ul{
+    display: flex;
+    list-style-type: none;
+    margin-right: 100px;
+}
+
+.nav_list ul li a{
+    text-decoration: none;
+    color: aqua;
+    padding-right: 70px;
+    font-size: larger;
+}
+
+
+/* info section  */
+.info_section{
+    background-color: black;
+    color: aqua;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    height: 100vh;
+}
+
+.animate_pic{
+    width: 25vw;
+    aspect-ratio: 1/1;
+}
+
+hr{
+    height: 1px;
+    background-color: aqua;
+    border: none;
+}
+
+
+/* about section  */
+
+.about_section{
+    background-color:slategrey;
+    height: 100vh;
+}
+
+
+
+.title{
+    text-align: center;
+    padding-top: 40px;
+    padding-bottom:20px ;
+    font-size: 50px;
+}
+
+.about_info h1{
+    font-size: 60px;
+}
+
+.about_me{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.about_p{
+    width: 100vh;
+    border: 1px solid red;
+}
+
+.my_pic img{
+    width: 250px;
+}
+
+
+
+/* services section start  */
+.services_section{
+    background-image:linear-gradient(45deg , rgb(5 8 8 / 0%), rgb(45 107 125 / 76%), #f9b0b0, #41c56a );
+    height: 100vh;
+
+}
+
+.services{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    height: 80vh;
+}
+
+.service_title{
+    padding-bottom: 15px;
+    text-align: center;
+}
+
+.all_service {
+    display: inline-block;
+    border: 1px solid darkslategray;
+    margin: 40px;
+    padding: 18px;
+    text-align: center;
+    height: 250px;
+}
+
